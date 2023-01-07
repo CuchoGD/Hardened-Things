@@ -1,0 +1,13 @@
+{
+    "type": "StackConveyor",
+    "description": "Extremely fast conveyor belt, though take time to build one\n because of the product time of hardened copper.\n Also this conveyor act like plastanium belt in late game, so...",
+    "name": "Hardened conveyor belt",
+    "category": "distribution",
+    "health": 180,
+    "itemCapacity": 10,
+    "speed": 0.09,
+    "requirements": [
+        {"item": "Hardened-copper", "amount": 1}
+    ],
+    "research": "router"
+}

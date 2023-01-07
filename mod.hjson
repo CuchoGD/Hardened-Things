@@ -1,0 +1,32 @@
+{
+    displayName : "Hardened Things"
+    repo : Eclipsan/Hardened thing
+    name : Project
+    author: 
+    '''
+    Eclipsan
+    Sprites - Eclipsan
+    '''
+
+    description:
+        '''
+        My first mod ever. Add hardened items that's actually compressed from vanilla things.
+        
+		The mod is just in its first process.
+		
+		Currently add:
+			- Hardened copper thats can be made in very early game.
+			- A factory for hardening copper. Though it take much time to product.
+			- Really tough copper wall.
+			- Powerful duo.
+			- Hardened conveyor belt, a.k.a early plastanium belt, even it much better than the plastanium one.
+			
+		I will try my best to keep developing this mod, since this game give me motivation to mod game.
+		
+		If some bugs occur during game, or you have some ideal for my mod, please report to me. I will really appreciate about it.
+        '''
+
+    subtitle: "Hardening..."
+    minGameVersion : 140.0
+    hidden : false
+}

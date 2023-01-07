@@ -1,0 +1,26 @@
+{	
+	"name": "Hardener",
+    "type": "GenericCrafter",
+    "description": "Harden copper",
+    "health": 100,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 50,	
+	"craftTime": 360,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+               "copper/9"
+			]
+		}
+	},
+	"requirements": [
+        "copper/50",
+        "lead/25"
+	],
+	"category": "crafting",
+	"research": "copper",
+	"outputItem": "Hardened-copper/1"
+}

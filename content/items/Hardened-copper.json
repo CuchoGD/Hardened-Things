@@ -1,0 +1,8 @@
+{
+    "name": "Hardened copper",
+    "description": "It's like copper, only hardened, with 9x the durability! Be careful though, you might get zapped!",
+    "explosiveness": 0.18,
+    "flammability": 0,
+    "charge": 0.4,
+    "research": "Hardener"
+}

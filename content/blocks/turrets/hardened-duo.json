@@ -1,0 +1,54 @@
+{
+  "type": "ItemTurret",
+  "name": "Hardened Duo",
+  "description": "A hardened duo, must be as strong as 9 duo, though should be balanced.",
+  "health": 1000,
+  "range": 160,
+  "size": 1,
+  "reload": 30,
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 12,
+  "inaccuracy": 1,
+  "xRand": 0,
+  "recoil": 0,
+  "shootSound": "shoot",
+  "buildCostMultiplier": 0.2,
+  "consumes": {
+    "coolant": {
+      "amount": 0.15
+    }
+  },
+  "ammoTypes": {
+      "Hardened-copper": {
+      "lifetime": 15,
+      "speed": 10,
+      "type": "BasicBulletType",
+      "ammoMultiplier": 6,
+      "reloadMultiplier": 1,
+      "shootEffect": "shootSmall",
+      "width": 6,
+      "damage": 27,
+      "height": 7,
+      "fragBullets": 3,
+      "fragBullet": {
+        "width": 2,
+        "damage": 9,
+        "height": 3,
+        "shrinkY": 2,
+        "lifetime": 30,
+        "backColor": "4410EA",
+        "frontColor": "593AB8"
+      }
+    }
+  },
+
+  "requirements": [
+    {
+      "item": "Hardened-copper",
+      "amount": 40
+    }
+  ],
+  "category": "turret",
+  "research": "Hardened-copper"
+}
